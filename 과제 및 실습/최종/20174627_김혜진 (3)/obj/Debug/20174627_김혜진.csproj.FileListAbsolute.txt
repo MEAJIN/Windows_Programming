@@ -1,0 +1,54 @@
+C:\Users\ADMIN\source\repos\20174627_김혜진\bin\Debug\20174627_김혜진.exe.config
+C:\Users\ADMIN\source\repos\20174627_김혜진\bin\Debug\20174627_김혜진.exe
+C:\Users\ADMIN\source\repos\20174627_김혜진\bin\Debug\20174627_김혜진.pdb
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\20174627_김혜진.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form1.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\20174627_김혜진.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\20174627_김혜진.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\20174627_김혜진.exe
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\20174627_김혜진.pdb
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form2.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form3.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form4.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form4_1.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form5.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form4_2.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form5_1.resources
+C:\Users\ADMIN\source\repos\20174627_김혜진\obj\Debug\_20174627_김혜진.Form6.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\bin\Debug\20174627_김혜진.exe.config
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\bin\Debug\20174627_김혜진.exe
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\bin\Debug\20174627_김혜진.pdb
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form1.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form2.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form3.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form4_1.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form4.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form4_2.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form5.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form5_1.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form6.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.exe
+C:\Users\ADMIN\Desktop\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.pdb
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\bin\Debug\20174627_김혜진.exe.config
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\bin\Debug\20174627_김혜진.exe
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\bin\Debug\20174627_김혜진.pdb
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.csprojAssemblyReference.cache
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form1.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form2.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form3.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form4_1.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form4.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form4_2.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form5.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form5_1.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Form6.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\_20174627_김혜진.Properties.Resources.resources
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.csproj.GenerateResource.cache
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.csproj.CoreCompileInputs.cache
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.exe
+C:\Users\82107\Desktop\usb이동\윈도우즈프로그래밍\과제 및 실습\최종\20174627_김혜진 (3)\obj\Debug\20174627_김혜진.pdb

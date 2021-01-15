@@ -1,0 +1,40 @@
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe.config
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.pdb
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csprojAssemblyReference.cache
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Form1.resources
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.GenerateResource.cache
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.exe
+C:\Users\yooat\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.pdb
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe.config
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.pdb
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csprojAssemblyReference.cache
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Form1.resources
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.GenerateResource.cache
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.exe
+C:\Users\yooat\Downloads\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.pdb
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe.config
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.pdb
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csprojAssemblyReference.cache
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Form1.resources
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.GenerateResource.cache
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.exe
+C:\Users\yooat\Desktop\20164091송희령 - C_Sharp 계산기\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.pdb
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe.config
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.exe
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\bin\Debug\WindowsFormsApp4.pdb
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Form1.resources
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.exe
+C:\Users\ADMIN\Desktop\20164091송희령 수업 실습 - 8주차\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.pdb
