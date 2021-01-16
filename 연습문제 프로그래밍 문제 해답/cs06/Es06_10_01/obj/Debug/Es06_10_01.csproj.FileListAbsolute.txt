@@ -1,0 +1,7 @@
+E:\윈도우즈프로그래밍\연습문제 프로그래밍 문제 해답\cs06\Es06_10_01\bin\Debug\Es06_10_01.exe.config
+E:\윈도우즈프로그래밍\연습문제 프로그래밍 문제 해답\cs06\Es06_10_01\bin\Debug\Es06_10_01.exe
+E:\윈도우즈프로그래밍\연습문제 프로그래밍 문제 해답\cs06\Es06_10_01\bin\Debug\Es06_10_01.pdb
+E:\윈도우즈프로그래밍\연습문제 프로그래밍 문제 해답\cs06\Es06_10_01\obj\Debug\Es06_10_01.csprojAssemblyReference.cache
+E:\윈도우즈프로그래밍\연습문제 프로그래밍 문제 해답\cs06\Es06_10_01\obj\Debug\Es06_10_01.csproj.CoreCompileInputs.cache
+E:\윈도우즈프로그래밍\연습문제 프로그래밍 문제 해답\cs06\Es06_10_01\obj\Debug\Es06_10_01.exe
+E:\윈도우즈프로그래밍\연습문제 프로그래밍 문제 해답\cs06\Es06_10_01\obj\Debug\Es06_10_01.pdb
