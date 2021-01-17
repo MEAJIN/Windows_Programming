@@ -1,0 +1,10 @@
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\bin\Debug\Ex10_02_MenuClickApp.exe.config
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\bin\Debug\Ex10_02_MenuClickApp.exe
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\bin\Debug\Ex10_02_MenuClickApp.pdb
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\obj\Debug\Ex10_02_MenuClickApp.csprojAssemblyReference.cache
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\obj\Debug\Ex10_02_MenuClickApp.Properties.Resources.resources
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\obj\Debug\Ex10_02_MenuClickApp.csproj.GenerateResource.cache
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\obj\Debug\Ex10_02_MenuClickApp.csproj.CoreCompileInputs.cache
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\obj\Debug\Ex10_02_MenuClickApp.exe
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\obj\Debug\Ex10_02_MenuClickApp.pdb
+E:\윈도우즈프로그래밍\예제소스\cs10\Ex10_02_MenuClickApp\obj\Debug\_20174627_김혜진_.Form1.resources

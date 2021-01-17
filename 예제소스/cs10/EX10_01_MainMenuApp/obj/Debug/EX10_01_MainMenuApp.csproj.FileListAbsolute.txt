@@ -1,0 +1,10 @@
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\bin\Debug\EX10_01_MainMenuApp.exe.config
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\bin\Debug\EX10_01_MainMenuApp.exe
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\bin\Debug\EX10_01_MainMenuApp.pdb
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\obj\Debug\EX10_01_MainMenuApp.csprojAssemblyReference.cache
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\obj\Debug\EX10_01_MainMenuApp.Form1.resources
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\obj\Debug\EX10_01_MainMenuApp.Properties.Resources.resources
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\obj\Debug\EX10_01_MainMenuApp.csproj.GenerateResource.cache
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\obj\Debug\EX10_01_MainMenuApp.csproj.CoreCompileInputs.cache
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\obj\Debug\EX10_01_MainMenuApp.exe
+E:\윈도우즈프로그래밍\예제소스\cs10\EX10_01_MainMenuApp\obj\Debug\EX10_01_MainMenuApp.pdb
