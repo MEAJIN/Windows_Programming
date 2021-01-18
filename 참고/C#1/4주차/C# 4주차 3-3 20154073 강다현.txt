@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace ConsoleApplication13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string path = @"C:\Users\DH\Documents\Visual Studio 2015\Projects\ConsoleApplication38\ConsoleApplication38\bin\Debug\Input.txt";
+            //입력 파일 경로
+            string output_path = @"C:\Users\DH\Documents\Visual Studio 2015\Projects\ConsoleApplication38\ConsoleApplication38\bin\Debug\output.txt";
+            //출력 파일 경로
+            string textValue = "";
+            
+            string[] find = { "학생", "공부", "부탁", "대한" };
+
+            if (!File.Exists(path)) //경로의 파일이 존재하지 않을 때
+            {
+                Console.WriteLine("파일이 존재하지 않습니다.");
+                Environment.Exit(0);    //종료
+            }
+
+            textValue = File.ReadAllText(path);
+            //textValue에 path에 있는 모든 텍스트를 가져옴
+
+            string[] SArray = textValue.Split(' ',',');
+
+            foreach(string f in find)
+            {
+                int cnt = 0;
+                foreach(string s in SArray)
+                {
+                    if (s.IndexOf(f) >= 0) cnt++;
+                }
+                Console.Write(f + " : " + cnt + "번 ");
+            }
+            //textValue += sr.ReadLine();
+
+            while (textValue.IndexOf(find[0]) != -1)
+            {
+                textValue=textValue.Replace("학생", "학우");
+            }
+
+            Console.WriteLine(textValue);
+            //콘솔에 textValue 출력
+
+
+            File.WriteAllText(output_path, textValue);
+            //textValue의 텍스트를 output_path에 출력
+        }
+    }
+}
+

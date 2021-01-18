@@ -1,0 +1,391 @@
+#define A
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+#if A
+namespace ConsoleApplication1
+{
+    class Car
+    {
+        int carnum;  //차번호
+        int speed;  //속도
+        int dir;   //방향
+
+        //1-1 디폴트 생성자
+        public Car() {
+            carnum = 0;
+            speed = 0;
+            dir = 0;
+        }
+
+        //값을 받아서 객체를 초기화하는 생성자
+        public Car(int innum, int inspeed, int indir) {
+            carnum = innum;
+            speed = inspeed;
+            dir = indir;
+        }
+
+        //속도와 방향의 프로퍼티
+        public int Speed{
+            get { return speed; }
+            set { speed = value; }
+        }
+        public int Dir
+        {
+            get { return dir; }
+            set { dir = value; }
+        }
+
+        //1-2 속도를 변경하는 메소드
+        public void speedup() {
+            speed += 1;
+        }
+        public void speeddown() {
+            if (speed < 1)
+                return;
+            speed -= 1;
+        }
+
+        //1-2 방향을 변경하는 메소드
+        public void turnright() {
+            dir += 1;
+        }
+        public void turnleft() {
+            dir -= 1;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //1-3 임의의 차량번호, 속도, 방향을 갖고 생성자 호출
+            Car newcar = new Car(1234, 70, 180);
+            ConsoleKeyInfo key;
+
+            do
+            {
+                //방향키를 입력받음
+                key = Console.ReadKey(true);
+                switch (key.Key)
+                {
+                    case ConsoleKey.UpArrow:
+                        newcar.speedup();
+                        Console.WriteLine("속도 = " + newcar.Speed);
+                        break;
+                    case ConsoleKey.DownArrow:
+                        newcar.speeddown();
+                        Console.WriteLine("속도 = " + newcar.Speed);
+                        break;
+                    case ConsoleKey.LeftArrow:
+                        newcar.turnleft();
+                        Console.WriteLine("방향 = " + newcar.Dir);
+                        break;
+                    case ConsoleKey.RightArrow:
+                        newcar.turnright();
+                        Console.WriteLine("방향 = " + newcar.Dir);
+                        break;
+                }
+            } while (true);
+           
+        }
+    }
+
+    
+}
+
+#elif B
+namespace ConsoleApplication1
+{
+    class Account
+    {
+        private int num;            //순번
+        private string date;        //날짜
+        private string separation;  //구분
+        private string contents;    //내용
+        private int money;          //가격
+
+        //2-1 디폴트 생성자
+        public Account()
+        {
+            num = 0;
+            date = null;
+            separation = null;
+            contents = null;
+            money = 0;
+        }
+
+        //2-1 구분과 가격 필드의 프로퍼티
+        public string Separation
+        {
+            get { return separation; }
+            set { separation = value; }
+        }
+
+        public int Money
+        {
+            get { return money; }
+            set { money = value; }
+        }
+
+        //2-2 가계부에 값을 입력하는 input_account 메소드
+        public void input_account(int num, string date, string separation, string contents, int money)
+        {
+            this.num = num;
+            this.date = date;
+            this.separation = separation;
+            this.contents = contents;
+            this.money = money;
+        }
+
+        public void ToString()
+        {
+            Console.WriteLine(date + ", " + separation + ", " + contents + ", " + money);
+        }
+
+        //2-3 가격 정보를 수정하는 mod_account 메소드
+        public void mod_account(int money)
+        {
+            this.money = money;
+        }
+
+        //2-4 가계부에 입력되어 있는 값을 출력하는 print_acount 메소드
+        public void print_account()
+        {
+            Console.WriteLine(num + ", " + date + ", " + separation + ", " + contents + ", " + money);
+        }
+
+        //구분 필드에 따라 값을 반환하는 get_state 메소드
+        public int get_state()
+        {
+            if (this.separation == "수입")
+            {
+                return 0;
+            }
+            else if (this.separation == "지출")
+            {
+                return 1;
+            }
+            else
+                return -1;
+        }
+
+    }
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int total_money; //잔액
+            int import = 0;         //총 수입 금액
+            int spending = 0;       //총 지출 금액
+            int result;
+            string[] str;
+
+            //객체를 생성 하고, 인스턴스화 시켜줌
+            Account[] my_account = new Account[10];
+            for (int i = 0; i < 10; i++)
+            {
+                my_account[i] = new Account();
+            }
+
+            //초기 잔액을 입력받아 total_money에 할당
+            Console.Write("잔액 : ");
+            total_money = Convert.ToInt32(Console.ReadLine());
+
+            //count : 가계부 순번
+            int count = 0;
+            // 0 : 수입, 1 : 지출
+            int state = -1; 
+            do
+            {
+                Console.Write("선택하세요 : (1 : 입력, 2 : 수정, 3 : 출력, 4 : 종료)  >> ");
+                result = Convert.ToInt32(Console.ReadLine());
+                switch (result)
+                {
+                    case 1:
+                        Console.WriteLine("날짜,(수입/지출),내용,가격을 입력하세요");
+                        str = Console.ReadLine().Split(',');
+                        my_account[count].input_account(count + 1, str[0], str[1], str[2], Int32.Parse(str[3]));
+
+                        state = my_account[count].get_state();
+                        if (state == 0)
+                        {
+                            import += my_account[count].Money;
+                        }
+                        else if (state == 1)
+                        {
+                            spending += my_account[count].Money;
+                        }
+                        else
+                        {
+                            Console.WriteLine("값을 올바르게 입력해주세요");
+                            count--;
+                            continue;
+                        }
+                        Console.Write("입력 >> ");
+                        my_account[count++].print_account();
+                        break;
+                    case 2:
+                        Console.Write("가격을 수정할 번호를 입력하세요 >> ");
+                        int update = Int32.Parse(Console.ReadLine()) - 1;
+                        Console.Write("기존 정보 : ");
+                        my_account[update].ToString();
+                        state = my_account[update].get_state();
+                        //가격 수정 전 총 수입 또는 총 지출에서 변경되기 전의 값을 뺌
+                        if (state == 0)
+                        {
+                            import -= my_account[update].Money;
+                        }
+                        else if (state == 1)
+                        {
+                            spending -= my_account[update].Money;
+                        }
+                        Console.WriteLine("수정할 가격을 입력하세요");
+                        my_account[update].mod_account(Int32.Parse(Console.ReadLine()));
+                        //가격 수정 후 총 수입 또는 총 지출에서 변경된 후의 값을 더함
+                        if (state == 0)
+                        {
+                            import += my_account[update].Money;
+                        }
+                        else if (state == 1)
+                        {
+                            spending += my_account[update].Money;
+                        }
+                        break;
+                    case 3:
+                        for (int i = 0; i < count; i++)
+                            my_account[i].print_account();
+                        Console.WriteLine("총 수입 : " + import + ", 총 지출 : " + spending + ", 남은 돈 : " + (total_money + import - spending));
+                        break;
+                    default:
+                        break;
+                }
+                Console.WriteLine();
+            } while (result != 4);
+        }
+    }
+}
+
+
+#elif C
+namespace ConsoleApplication1
+{
+    class refrigerator
+    {
+        int curr_temp; //현재 온도 저장
+        string[] itemlist = new string[20]; //물품 리스트
+        int index = 0;
+
+        //3-1 디폴트 생성자 정의
+        public refrigerator()
+        {
+            curr_temp = 0;
+            for(int i = 0; i<itemlist.Length; i++)
+            {
+                itemlist[i] = "";
+            }
+        }
+
+        //3-2 현재 온도를 설정해주는 생성자
+        public refrigerator(int intemp) {
+            curr_temp = intemp;
+            for (int i = 0; i < itemlist.Length; i++)
+            {
+                itemlist[i] = "";
+            }
+        }
+
+        //온도 필드의 프로퍼티
+        public int Curr_temp
+        {
+            get { return curr_temp; }
+            set { curr_temp = value; }
+        }
+
+        //3-3 물품 리스트를 추가하는 additem 메소드
+        public void additem(string item) {
+            itemlist[index++] = item;
+        }
+
+        //3-3 해당 물품 존재 시 삭제하는 delitem 메소드
+        public void delitem(string item) {
+            int i;
+            for(i = 0; i < index; i++)
+            {
+                if(string.Compare(itemlist[i], item) == 0)
+                {
+                    index--;
+                    break;
+                }
+            }
+            for(int j = i; j < index; j++)
+            {
+                itemlist[j] = itemlist[j+1];
+            }
+        }
+
+        //3-4 현재 온도와 존재하는 아이템의 개수를 출력하는 print apthem
+        public void print() {
+            Console.WriteLine("현재 온도 = " + curr_temp);
+            for(int i = 0; i < index; i++)
+            {
+                Console.WriteLine(itemlist[i]);
+            }
+        }
+
+        //3-4 온도를 변경하는 changetemp 함수
+        public void changetemp(int temp) {
+            curr_temp = temp;
+        }
+    }
+
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            refrigerator myref = new refrigerator(-7);  //객체 생성시 냉장고 온도 설정
+            int input;
+            do
+            {
+                Console.Write("1 : 항목 입력, 2 : 항목 삭제, 3 : 출력, 4 : 온도 변경, 5 : 종료 : ");
+                input = Convert.ToInt32(Console.ReadLine());
+                switch (input)
+                {
+                    case 1:
+                        Console.Write("추가할 항목 입력 : ");
+                        myref.additem(Console.ReadLine());
+                        break;
+                    case 2:
+                        Console.Write("제거할 항목 입력 : ");
+                        myref.delitem(Console.ReadLine());
+                        break;
+                    case 3:
+                        myref.print();
+                        break;
+                    case 4:
+                        Console.WriteLine("현재 온도 = " + myref.Curr_temp);
+                        Console.Write("바꿀 온도 입력 :");
+                        myref.changetemp(Int32.Parse(Console.ReadLine()));
+                        break;
+                    case 5:
+                        Console.WriteLine("exit");
+                        break;
+                    default:
+                        //donothing
+                        break;
+                }
+                Console.WriteLine();
+            } while (input != 5);
+        }
+
+    }
+}
+
+#endif

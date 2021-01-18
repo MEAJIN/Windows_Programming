@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] str = {"computer", "science", "ENGINEERING","android","VISUALSTUDIO"};
+            string find;
+
+            bool tag = false;
+
+            Console.Write("검색할 단어를 입력하세요 : ");
+            find = Console.ReadLine();
+
+            foreach (string s in str)
+            {
+                if (string.Compare(find.ToLower(),s.ToLower()) == 0)
+                {
+                    tag = true;
+                    break;
+                }
+            }
+            
+            if (tag == true)
+            {
+                Console.WriteLine("검색한 단어 " + find + "(이)가 배열에 있습니다.");
+            }
+            else
+            {
+                Console.WriteLine("검색한 단어 " + find + "(이)가 배열에 없습니다.");
+            }
+
+        }
+    }
+}

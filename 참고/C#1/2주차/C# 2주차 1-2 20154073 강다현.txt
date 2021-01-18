@@ -1,0 +1,69 @@
+C#
+실습문제 1
+
+1-2.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace ConsoleApplication7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int studentNum;
+
+            Console.WriteLine("학생의 수를 입력해주세요 : ");
+            studentNum = int.Parse(Console.ReadLine());
+
+            string[,] student = new string[studentNum,7];
+
+            for (int i = 0; i < studentNum; i++)
+            {
+                Console.WriteLine("성명, 국어점수, 영어점수, 수학점수 순으로 입력하세요");
+                string s = Console.ReadLine();
+
+                for(int j = 0; j < 4; j++)
+                {
+                    student[i, j] = s.Split()[j];
+                }
+
+                int total = 0;
+                for (int j = 1; j < 4; j++)
+                {
+                    total += int.Parse(student[i,j]);
+                }
+
+                student[i,4] = total.ToString();
+                student[i,5] = (total / 3).ToString();
+            }
+
+            for (int i = 0; i < studentNum; i++)
+            {
+                int rank = 1;
+                int score = int.Parse(student[i,4]);
+                for (int j = 0; j < studentNum; j++)
+                {
+                    if (score < int.Parse(student[j,4]))
+                        rank += 1;
+                }
+                student[i,6] = rank.ToString();
+            }
+
+            for (int i = 0; i < studentNum; i++)
+            {
+                Console.WriteLine(" 이름: " + student[i,0] + " 국어: " + student[i,1] + " 영어: " + student[i,2] + " 수학: " + student[i,3] + " 총합: " + student[i,4] + " 평균: " + student[i,5] + " 석차: " + student[i,6]);
+            }
+
+
+
+
+        }
+    }
+}
+

@@ -1,0 +1,150 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.Write("단을 입력하세요 : ");
+            int num;
+            int[] array = new int[10];
+
+            num = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i < 10; i++)
+            {
+                array[i] = num * i;
+            }
+            int j = 0;
+            foreach (int i in array)
+            {
+                Console.WriteLine("{0} * {1} = {2}",num,j,i);
+                j++;
+            }
+            
+
+
+
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String[] str = { "computer", "science", "ENGIENERING", "android", "VISUAL STUDIO" };
+
+            Console.WriteLine("검색할 단어를 입력하세요 : ");
+            string find = Console.ReadLine();
+
+            foreach (string s in str)
+            {
+                if (s == find)
+                {
+                    Conso
+le.WriteLine("검색한 단어 '{0}'(이)가 배열에 있습니다", s);
+                    break;
+                }
+                else
+                    Console.WriteLine("검색한 단어 '{0}'(이)가 배열에 없습니다", find);
+                break;
+            }
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[,] lib = new string[10, 2];
+            bool findout = false;
+            int num = 0;
+            do
+            {
+                Console.WriteLine("*********************************");
+                Console.WriteLine("1:도서 추가, 2: 도서 검색, 3: 도서 리스트 출력, 0: 종료");
+                Console.Write("********************************* >>> ");
+                int userdo = int.Parse(Console.ReadLine());
+                switch (userdo)
+                {
+                    case 1:
+                        Console.WriteLine("입력할 도서(책이름,저자)를 입력하세요. 최대 10개 입력 가능 ex) 파울로 코엘로, 연금술사");
+                        string s = Console.ReadLine();
+                        string[] finds = s.Split(',');
+
+                        lib[num, 0] = finds[0];
+                        lib[num, 1] = finds[1];
+
+                        Console.WriteLine(">>> 입력 값: {0}. {1} {2} \n", num + 1, lib[num, 0], lib[num, 1]);
+                        num++;
+
+                        break;
+
+                    case 2:
+                        Console.WriteLine("찾고자 하는 도서의 이름이나 저자의 이름을 입력하시오");
+                        string tmp = Console.ReadLine();
+                        int numtmp = num * 2;
+                        foreach (string n in lib)
+                        {
+                            if (n.Contains(tmp))   
+                            {
+                                Console.WriteLine(">>> 찾고자 하는 도서가 존재함");
+                                findout = true; 
+                                break;
+                            }
+                            if ((--numtmp) == 0) 
+                            {
+                                break;
+                            }
+                        }
+                        if (!findout) 
+                        {
+                            Console.WriteLine(">>> 찾고자 하는 도서가 존재하지 않음");
+                        }
+                        findout = false; 
+                        break;
+                    case 3:
+                        Console.WriteLine("\n전체 도서 목록");
+                        for (int i = 0; i < num; i++) 
+                        {
+                            Console.WriteLine("{0}. {1} {2}", i + 1, lib[i, 0], lib[i, 1]);
+                        }
+                        Console.WriteLine();
+                        break;
+                    case 0:
+                        Console.WriteLine("\n종료");
+                        return;
+                    default:
+                        Console.WriteLine("\n올바르지 않은 입력입니다\n");
+                        break;
+                }
+            } while (true);
+        }
+    }
+}
+
+

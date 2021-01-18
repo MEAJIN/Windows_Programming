@@ -1,0 +1,97 @@
+///////////////// 1-1 실습문제
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication14
+{
+    class Program //실습문제1 배열 1-1 , 1차원 배열
+    {
+        static void Main(string[] args)
+        {
+            string[] name = new string[] { "사과", "배", "포도", "딸기", "자몽" };
+
+            Console.Write("찾고자 하는 이름을 입력하시오: ");
+            string fruit = Console.ReadLine();
+
+            foreach (string element in name)
+            {
+                if (fruit == element)
+                    Console.Write("일치하는 단어를 찾았음:", element);
+                            break;
+            }
+
+        }
+    }
+}
+
+////////////////  1-2 실습문제
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int stdn;
+            Console.WriteLine("학생 수를 입력하세요");
+            stdn = int.Parse(Console.ReadLine());
+
+            string stdinfo;
+
+            string[,] array = new string[stdn, 7];
+
+            Console.WriteLine("성명, 국어, 영어, 수학점수 순으로 입력");
+
+            for (int i = 0; i < stdn; i++)
+            {
+                stdinfo = Console.ReadLine();
+                string[] getinfo = stdinfo.Split(',');
+
+                for (int j = 0; j < 4; j++)
+                {
+                    array[i, j] = getinfo[j];
+                }
+
+                double total = double.Parse(array[i, 1]) + double.Parse(array[i, 2]) + double.Parse(array[i, 3]);
+                double avg = total / 3.0;   //평균 = 총점/3
+
+                array[i, 4] = total.ToString();    
+                array[i, 5] = avg.ToString();
+                array[i, 6] = "1";                 
+            }
+
+            for (int i = 0; i < stdn; i++)
+            {
+                for (int j = 0; j < stdn; j++)
+                {
+                    if (double.Parse(array[i, 5]) > double.Parse(array[j, 5]))
+                    {
+                        int tempRank = int.Parse(array[j, 6]);
+                        tempRank++;
+                        array[j, 6] = tempRank.ToString();
+                    }
+                }
+            }
+
+            Console.WriteLine(" ****** 결과 ***** ");
+            for (int i = 0; i < stdn; i++)
+            {
+                Console.WriteLine("이름: {0}, 국어: {1}, 영어: {2}, 수학: {3}, 총점: {4}, 평균: {5}, 석차: {6}",
+                    array[i, 0], array[i, 1], array[i, 2], array[i, 3], array[i, 4], array[i, 5], array[i, 6]);
+            }
+
+            Console.WriteLine(array);
+        }
+    }
+}
+
+
